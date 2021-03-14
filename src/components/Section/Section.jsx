@@ -1,12 +1,14 @@
-import React from "react";
-import * as S from "./Section.style";
+import React from 'react';
+import PropTypes from 'prop-types';
 
-function Section({ background, fullWidth, children }) {
-  return (
-    <S.Section background={background}>
-      {fullWidth ? children : <S.Container>{children}</S.Container>}
-    </S.Section>
-  );
-}
+const TextInput = ({ children }) => (
+  <section className="section">
+    <div className="container">{children}</div>
+  </section>
+);
 
-export default Section;
+TextInput.propTypes = {
+  children: PropTypes.node.isRequired
+};
+
+export default TextInput;

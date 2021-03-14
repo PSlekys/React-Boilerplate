@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page renders correctly 1`] = `
+Array [
+  <section
+    className="section"
+  >
+    <div
+      className="container"
+    >
+      <h1
+        className="title"
+      >
+        Welcome to the boilerplate
+      </h1>
+    </div>
+  </section>,
+  <section
+    className="section"
+  >
+    <div
+      className="container"
+    >
+      <form>
+        <div
+          className="field"
+        >
+          
+          <div
+            className="control"
+          >
+            <input
+              className="input"
+              id="name"
+              name="name"
+              onChange={[Function]}
+              placeholder="Name"
+              type="text"
+            />
+          </div>
+        </div>
+        <button
+          className="sc-bdfBwQ dWDbCJ button is-primary"
+          onClick={[Function]}
+          type="button"
+        >
+          Say hi!
+        </button>
+      </form>
+    </div>
+  </section>,
+]
+`;
